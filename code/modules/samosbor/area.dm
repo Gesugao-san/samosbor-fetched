@@ -1,6 +1,6 @@
 /area
 	// костыль, забейте хуй
-	ambience = list()
+	var/list/ambience = list()
 	var/list/samosbor_ambience = list('sound/samosbor/ambient/ambient1.ogg')
 	/*
 	var/list/ambience = list('sound/stalker/ambience/amb01.ogg','sound/stalker/ambience/amb02.ogg',

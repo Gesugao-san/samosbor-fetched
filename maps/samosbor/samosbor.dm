@@ -7,7 +7,7 @@
 
 	#include "samosbor.dmm"
 	#include "samosbor-inf4.dmm"
-	#include "samosbor-dev.dmm"
+	#include "samosbor-templates.dmm"
 
 	//#include "../../code/modules/lobby_music/generic_songs.dm"
 

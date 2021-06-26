@@ -201,7 +201,17 @@
 
 	//var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(client)
 	var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(client, client.prefs.ranks[job.title])
+
+	if(!istype(spawnpoint) || !spawnpoint)
+		error("There is no spawnpoints. Are there is existing on map?")
+		crash_with("ERROR: There is no spawnpoints. Are there is existing on map?")
+
+	if(!istype(spawnpoint.turfs) || !spawnpoint.turfs.len || !spawnpoint.turfs)
+		error("There is no spawnpoint turfs ([spawnpoint]). Are there turfs existing on map?")
+		crash_with("ERROR: There is no spawnpoint turfs ([spawnpoint]). Are there turfs existing on map?")
+
 	var/turf/spawn_turf = pick(spawnpoint.turfs)
+
 	if(job.latejoin_at_spawnpoints)
 		var/obj/S = job.get_roundstart_spawnpoint()
 		spawn_turf = get_turf(S)
@@ -352,6 +362,15 @@
 		if(!job)
 			job = SSjobs.get_by_title(GLOB.using_map.default_assistant_title)
 		var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(client, client.prefs.ranks[job.title])
+
+		if(!istype(spawnpoint) || !spawnpoint)
+			error("There is no spawnpoints. Are there is existing on map?")
+			crash_with("ERROR: There is no spawnpoints. Are there is existing on map?")
+
+		if(!istype(spawnpoint.turfs) || !spawnpoint.turfs.len || !spawnpoint.turfs)
+			error("There is no spawnpoint turfs ([spawnpoint]). Are there turfs existing on map?")
+			crash_with("ERROR: There is no spawnpoint turfs ([spawnpoint]). Are there turfs existing on map?")
+
 		spawn_turf = pick(spawnpoint.turfs)
 
 	if(chosen_species)

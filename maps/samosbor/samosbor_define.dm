@@ -1,5 +1,5 @@
 /datum/map/samosbor
-	name = "samosbor"
+	name = "Samosbor"
 	full_name = "samosbor"
 	path = "samosbor"
 

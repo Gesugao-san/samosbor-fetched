@@ -1,15 +1,15 @@
-#define END_WIDTH 13
-#define KH_HEIGHT 20
-#define ROOM_HEIGHT 9
-#define ROOM_WIDTH 15
 #define COR_HEIGHT 2
+#define END_WIDTH 13
+#define FLOOR_DECAL_CHANCE 2 //1 = 1%
+#define FLOOR_SIZE 3
+#define KH_HEIGHT 20
+#define KH_INVERTED 1
 #define KH_X_OFFSET 2
 #define KH_Y_OFFSET 6
-#define FLOOR_SIZE 3
-#define MID_SIZE 1
 #define MAP_Y_SIZE 100
-#define KH_INVERTED 1
-#define FLOOR_DECAL_CHANCE 2 //1 = 1%
+#define MID_SIZE 1
+#define ROOM_HEIGHT 9
+#define ROOM_WIDTH 15
 
 /area/kh_gen
 	name = "Khruschevka"
@@ -103,39 +103,58 @@
 	points.Add(item)
 
 /datum/spawnpoints/proc/PickPoint()
+	if(!istype(points) || !points)
+		error("There is no spawnpoints. Are there existing on map?")
+		crash_with("ERROR: There is no spawnpoints. Are there existing on map?")
 	return pick(points)
 
 
 /proc/GenerateLevel(level)
 	var/list/obj/effect/kh_spawner/Spawners = list()
-	Spawners += new /obj/effect/kh_spawner/left_end(locate(KH_X_OFFSET + 1, MAP_Y_SIZE - KH_Y_OFFSET - KH_HEIGHT + 1, level))
+
+	var/x_pos = KH_X_OFFSET + 4 // 20 + 4 = 24
+	var/y_pos = MAP_Y_SIZE - KH_Y_OFFSET - KH_HEIGHT + 1 // 100 - 6 - 20 + 1 = 75
+
+	Spawners += new /obj/effect/kh_spawner/left_end(locate(x_pos, y_pos, level))
 
 	var/is_odd = level % 2
 
-	if(KH_INVERTED == TRUE)
+	if(KH_INVERTED == 1)
 		is_odd = !is_odd
 
-
 	if(is_odd)
-		for(var/i = 1, i <= FLOOR_SIZE, i++)
-			var/x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * (i - 1)) + 1
+		for(var/i = 1, i <= FLOOR_SIZE, i++) // [1-3]
+			x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * (i - 1)) + 4 //+ 1
+				// 2 + 13 + ((15 - 1) * ([1] - 1)) + 4 = 19 // + 1 = 16
+				// 2 + 13 + ((15 - 1) * ([2] - 1)) + 4 = 33 // + 1 = 30
+				// 2 + 13 + ((15 - 1) * ([3] - 1)) + 4 = 61 // + 1 = 58
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT + 1 // 100 - 6 - 9 + 1 = 86
+			Spawners += new /obj/effect/kh_spawner/up_flat(locate(x_pos, y_pos, level))
 
-			Spawners += new /obj/effect/kh_spawner/up_flat(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT + 1, level))
-			Spawners += new /obj/effect/kh_spawner/coridor(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT - COR_HEIGHT + 1, level))
-			Spawners += new /obj/effect/kh_spawner/down_flat(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - (ROOM_HEIGHT*2) - COR_HEIGHT + 1, level))
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT - COR_HEIGHT + 1 // 100 - 6 - 9 - 2 + 1 = 84
+			Spawners += new /obj/effect/kh_spawner/coridor(locate(x_pos, y_pos, level))
+
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - (ROOM_HEIGHT * 2) - COR_HEIGHT + 1 // 100 - 6 - (9 * 2 = 18) - 2 + 1 = 75
+			Spawners += new /obj/effect/kh_spawner/down_flat(locate(x_pos, y_pos, level))
 
 	else
-		for(var/i = 1, i <= MID_SIZE, i++)
-			var/x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * (i - 1)) + 1
+		for(var/i = 1, i <= MID_SIZE, i++) // [1-1]
+			x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * (i - 1)) + 1
+				// 2 + 13 + ((15 - 1 = 14) * (1 - 1 = 0) = 0) + 1 = 16
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT + 1 // 100 - 6 - 9 + 1 = 86
+			Spawners += new /obj/effect/kh_spawner/up_flat(locate(x_pos, y_pos, level))
 
-			Spawners += new /obj/effect/kh_spawner/up_flat(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT + 1, level))
-			Spawners += new /obj/effect/kh_spawner/coridor(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT - COR_HEIGHT + 1, level))
-			Spawners += new /obj/effect/kh_spawner/down_flat(locate(x_pos, MAP_Y_SIZE - KH_Y_OFFSET - (ROOM_HEIGHT*2) - COR_HEIGHT + 1, level))
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - ROOM_HEIGHT - COR_HEIGHT + 1 // 100 - 6 - 9 - 2 + 1 = 84
+			Spawners += new /obj/effect/kh_spawner/coridor(locate(x_pos, y_pos, level))
+
+			y_pos = MAP_Y_SIZE - KH_Y_OFFSET - (ROOM_HEIGHT * 2) - COR_HEIGHT + 1 // 100 - 6 - (9 * 2 = 18) - 2 + 1 = 75
+			Spawners += new /obj/effect/kh_spawner/down_flat(locate(x_pos, y_pos, level))
 
 
-	var/right_end_x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * FLOOR_SIZE) + 2
+	var/right_end_x_pos = KH_X_OFFSET + END_WIDTH + ((ROOM_WIDTH - 1) * FLOOR_SIZE) + 2 // 2 + 13 + ((15 - 1) * 3) + 2 = 59
+	var/right_end_y_pos = MAP_Y_SIZE - KH_Y_OFFSET - KH_HEIGHT + 1 // 100 - 6 - 20 + 1 = 75
 
-	Spawners += new /obj/effect/kh_spawner/right_end(locate(right_end_x_pos, MAP_Y_SIZE - KH_Y_OFFSET - KH_HEIGHT + 1, level))
+	Spawners += new /obj/effect/kh_spawner/right_end(locate(right_end_x_pos, right_end_y_pos, level)) //
 
 	return Spawners
 
@@ -145,17 +164,16 @@
 /obj/effect/kh_spawner/proc/Spawn()
 
 	//warning("LEVEL [loc.z] SPAWN")
-	var/list/blueprint_turfs = null
+	var/list/blueprint_turfs //= null
 	var/is_odd = loc.z % 2
 
-	if(KH_INVERTED == TRUE)
+	if(KH_INVERTED == 1)
 		is_odd = !is_odd
 
 	if(is_odd)
 		blueprint_turfs = get_area_turfs(blueprint)
 	else
 		blueprint_turfs = get_area_turfs(mid_blueprint)
-
 
 	var/min_x = 0
 	var/min_y = 0
@@ -170,7 +188,6 @@
 
 	var/diff_y = src.y - min_y
 	var/diff_x = src.x - min_x
-
 
 	var/list/beds = list()
 	var/list/germas = list()
@@ -187,7 +204,6 @@
 		var/trg_x = source_turf.x + diff_x
 		var/trg_y = source_turf.y + diff_y
 
-
 		var/turf/T = new source_turf.type(locate(trg_x, trg_y, src.z))
 		T.icon = source_turf.icon
 		T.icon_state = source_turf.icon_state
@@ -202,14 +218,11 @@
 
 		NewTurfs += T
 
-
 		if(istype(T, /turf/simulated/wall))
 			Walls += T
 		else
 			if(prob(FLOOR_DECAL_CHANCE))
 				new /obj/effect/decal/cleanable/floor_decal(T)
-
-
 
 		for(var/obj/O in source_turf.contents)
 			if(istype(O, /obj/structure/stairs))
@@ -217,8 +230,6 @@
 					stairs_spawned = 1
 				else
 					continue
-
-
 
 			var/obj/new_obj = DuplicateObject(O, 1)
 			new_obj.loc = T
@@ -237,7 +248,6 @@
 
 				germas["[G.group]"] = G
 				continue
-
 
 			if(istype(new_obj, /obj/machinery/light))
 				Lights += new_obj
@@ -278,8 +288,7 @@
 			GLOB.family_join["[family_len]"] = S
 
 
-
-// INITIALIZE_IMMEDIATE(/obj/effect/kh_spawner)
+INITIALIZE_IMMEDIATE(/obj/effect/kh_spawner)
 
 /obj/effect/kh_spawner/Initialize()
 	. = ..()
@@ -297,8 +306,6 @@
 		L.update_icon()
 		L.set_light(1)
 		L.update_icon()
-
-
 
 
 /obj/effect/kh_spawner/up_flat

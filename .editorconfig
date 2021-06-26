@@ -22,5 +22,5 @@ indent_style = space
 indent_size = 2
 indent_style = space
 
-#[*.txt]
-#end_of_line = crlf
+[*.sh]
+end_of_line = lf

@@ -23,7 +23,7 @@
 
 /atom/movable/Destroy()
 	if(!(atom_flags & ATOM_FLAG_INITIALIZED))
-		crash_with("Was deleted before initalization")
+		crash_with("Was deleted before initalization.")
 
 	for(var/A in src)
 		qdel(A)

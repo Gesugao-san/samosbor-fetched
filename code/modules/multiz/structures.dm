@@ -213,6 +213,8 @@
 	anchored = TRUE
 	layer = RUNE_LAYER
 
+INITIALIZE_IMMEDIATE(/obj/structure/stairs)
+
 /obj/structure/stairs/Initialize()
 	for(var/turf/turf in locs)
 		var/turf/simulated/open/above = GetAbove(turf)
