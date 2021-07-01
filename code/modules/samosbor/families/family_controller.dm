@@ -50,6 +50,9 @@ var/global/datum/controller/subsystem/families/families_controller
 
 
 				var/datum/family_record/fr = new()
+				if(!istype(GLOB.rus_last_names) || !GLOB.rus_last_names.len || !GLOB.rus_last_names)
+					error("Russians last names are not initialised. Are 'config/surnames.txt' existing?")
+					crash_with("Russians last names are not initialised. Are 'config/surnames.txt' existing?")
 				fr.surname = pick(GLOB.rus_last_names)
 				fr.players = f
 
