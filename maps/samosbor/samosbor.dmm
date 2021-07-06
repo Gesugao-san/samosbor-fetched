@@ -18,6 +18,7 @@
 "s" = (/turf/simulated/wall,/area/khruschevka/five)
 "t" = (/turf/simulated/wall,/area/khruschevka/four)
 "u" = (/turf/simulated/floor/plating,/area/khruschevka/anomaly_levels)
+"v" = (/obj/effect/submap_landmark/spawnpoint,/turf/unsimulated/floor/rescue_base,/area/khruschevka/one)
 "w" = (/turf/simulated/floor/tiled/dark,/area/khruschevka/anomaly_levels)
 "x" = (/obj/structure/disposalpipe/broken{dir = 1; icon_state = "pipe-b"; layer = 3.1; pixel_y = 3; plane = -10; tag = "icon-pipe-b (NORTH)"},/turf/simulated/floor/plating,/area/khruschevka/anomaly_levels)
 "z" = (/obj/turbolift_map_holder/samosbor,/turf/simulated/floor/plating,/area/khruschevka/anomaly_levels)
@@ -33,6 +34,7 @@
 "L" = (/turf/simulated/wall,/area/khruschevka/eleven)
 "M" = (/turf/simulated/wall,/area/khruschevka/two)
 "N" = (/turf/simulated/wall,/area/khruschevka/three)
+"O" = (/obj/effect/landmark/start{name = "Dweller"},/turf/unsimulated/floor/rescue_base,/area/khruschevka/one)
 "P" = (/turf/simulated/wall,/area/khruschevka/ten)
 "Q" = (/turf/simulated/wall,/area/khruschevka/anomaly_levels)
 "R" = (/turf/simulated/floor/plating{holy = 1},/area/khruschevka/anomaly_levels)
@@ -62,7 +64,7 @@ aaFaaaaaFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaFaaaaaFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaFFaaaFFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaOavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

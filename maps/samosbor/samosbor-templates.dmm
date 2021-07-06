@@ -11,7 +11,7 @@
 "al" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/up_flat)
 "am" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/right_end)
 "an" = (/obj/structure/disposalpipe/up,/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
-"ao" = (/obj/structure/disposalpipe/down,/turf/simulated/wall,/area/kh_gen/left_end)
+"ao" = (/obj/structure/disposalpipe/down,/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
 "ap" = (/turf/simulated/wall,/area/kh_gen/left_end)
 "aq" = (/obj/structure/stairs/north,/turf/simulated/wall,/area/kh_gen/left_end)
 "ar" = (/turf/simulated/wall,/area/kh_gen/up_flat)
@@ -48,7 +48,7 @@
 "aW" = (/obj/structure/table/woodentable,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "aX" = (/obj/structure/table/woodentable,/obj/item/device/radio/intercom/old_radio{pixel_y = 5},/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "aY" = (/obj/structure/closet,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"aZ" = (/turf/simulated/floor,/area/kh_gen/left_end)
+"aZ" = (/turf/simulated/wall,/area/khruschevka)
 "ba" = (/obj/machinery/light/small{dir = 8; icon_state = "bulb1"; tag = "icon-bulb1 (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bb" = (/turf/simulated/floor/carpet,/area/kh_gen/up_flat)
 "bc" = (/obj/machinery/door/morgue,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
@@ -212,10 +212,14 @@
 "eS" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/anomaly_levels)
 "eT" = (/turf/simulated/floor/tiled/padik{holy = 1},/area/kh_gen/left_end)
 "fK" = (/obj/effect/landmark/start{name = "Dweller"},/turf/simulated/floor/carpet,/area/kh_gen/up_flat)
+"hD" = (/obj/structure/ladder/updown,/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
 "nf" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/obj/structure/stairs/north,/turf/simulated/floor,/area/kh_gen/mid/left_end)
 "qb" = (/obj/effect/shuttle_landmark,/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
+"qw" = (/turf/simulated/open,/area/kh_gen/mid/left_end)
 "rs" = (/obj/effect/submap_landmark/spawnpoint,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "tK" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/obj/structure/stairs/south,/turf/simulated/floor,/area/kh_gen/left_end)
+"yw" = (/obj/structure/ladder/up,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"Kf" = (/turf/simulated/open,/area/kh_gen/left_end)
 "ME" = (/obj/effect/landmark/start{name = "Dweller"},/turf/simulated/floor/carpet,/area/kh_gen/down_flat)
 
 (1,1,1) = {"
@@ -224,13 +228,13 @@ abababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-abababababapapapapapapapapapapapapaparararararararararararararararaJaJaJaJababababababababababagagagagagahaiajajajajajajakakakakakakakakakakalalalalalamamamamababababababababababababababababababababab
-abababababapacacacacanaoapapapapaqaparadadadadadadadadadadadadadadafafafaJababababababababababajajajajajasatagajajauavaCawaFaFaFelaYesbIbIakalalalalalamamamamababababababababababababababababababababab
-abababababapapapapapaxayazapaptKaBaparadadadadadadadadadadadadadadafafafaJababababababababababajaCaCaCaCaCajagajajaDnfajakebaFaFaFaFececetakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaHaIapapaAaBaparararararararararararararararaJaJaJaJababababababababababajaCaCaCaCaCajagajajaKaEajakaFaFedeeeeefefegakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapapaAaMaparaNaOaPaOaraQaraRaraSaTaUaVaraWaXaWaJababababababababababajaCaCaCaCaCajagajajajajajakaFaFecaFehejekekakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapaeaZaZaearbabbbbaUarbcarbcarbdbbbbbearbfbfbfaJababababababababababajaCaCaCaCaCajagajajajajajakedeeemakakakakakakalalalalalamamamamababababababababababababababababababababab
+ababababababababababababababaZaZaZababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababapapapapapapapapapapKfapaparararararararararararararararaJaJaJaJababababababababababagagagagagahaiajajajajajajakakakakakakakakakakalalalalalamamamamababababababababababababababababababababab
+abababababapacacacacanaoacapywapaqaparadadadadadadadadadadadadadadafafafaJababababababababababajajajajajasatagajhDauavaCawaFaFaFelaYesbIbIakalalalalalamamamamababababababababababababababababababababab
+abababababapapapapapaxayazapaetKaBaparadadadadadadadadadadadadadadafafafaJababababababababababajaCaCaCaCaCajagajajaDnfajakebaFaFaFaFececetakalalalalalamamamamababababababababababababababababababababab
+abababababapaGaGaGaGaGaHaIapaeaAaBaparararararararararararararararaJaJaJaJababababababababababajaCaCaCaCaCajagagajaKaEajakaFaFedeeeeefefegakalalalalalamamamamababababababababababababababababababababab
+abababababapaGaGaGaGaGaLacapaeaAaMaparaNaOaPaOaraQaraRaraSaTaUaVaraWaXaWaJababababababababababajaCaCaCaCaCajagagajajqwajakaFaFecaFehejekekakalalalalalamamamamababababababababababababababababababababab
+abababababapaGaGaGaGaGaLacapaeaeaeaearbabbbbaUarbcarbcarbdbbbbbearbfbfbfaJababababababababababajaCaCaCaCaCajagagagajajajakedeeemakakakakakakalalalalalamamamamababababababababababababababababababababab
 abababababapaGaGaGaGaGaLacapaeaebhenarbgbbfKrsaUaUaraUaUaUbbfKaVarbfbfbfaJababababababababababajaCaCaCaCaCajagagagagajeieuemaFaFakalalalalalalalalalalamamamamababababababababababababababababababababab
 abababababapaGaGaGaGaGaLacapeoaeevaearaSaTbibjbkaUaraUbkblaNbiaSarbfbfbfaJababababababababababajajajajajajajagagagagajajakakakakakalalalalalalalalalalamamamamababababababababababababababababababababab
 abababababapapeTeTeTapaLapapapaeevapararararararbwarbyararararararaJbfaJaJababababababababababagagagagagagagagagagagagagalalalalalalalalalalalalalalalamamamamababababababababababababababababababababab
