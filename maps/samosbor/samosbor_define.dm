@@ -12,6 +12,15 @@
 
 	allowed_spawns = list("Arrivals Shuttle")
 
+	station_name  = "BAD Station"
+	station_short = "Baddy"
+	dock_name     = "THE PirateBay"
+	boss_name     = "Captain Roger"
+	boss_short    = "Cap'"
+	company_name  = "BadMan"
+	company_short = "BM"
+	system_name   = "Void"
+
 	shuttle_docked_message = "The shuttle has docked."
 	shuttle_leaving_dock = "The shuttle has departed from home dock."
 	shuttle_called_message = "A scheduled transfer shuttle has been sent."
@@ -25,3 +34,9 @@
 		/datum/job/utilizator,
 		/datum/job/zavhoz
 	)
+
+/datum/map/samosbor/get_map_info()
+	. = list()
+	. +=  "You're aboard the Khruschevka."
+	. +=  "Try not to die."
+	return jointext(., "<br>")
