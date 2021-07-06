@@ -364,8 +364,8 @@
 		var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(client, client.prefs.ranks[job.title])
 
 		if(!istype(spawnpoint) || !spawnpoint)
-			error("There is no spawnpoints. Are there is existing on map?")
-			crash_with("ERROR: There is no spawnpoints. Are there is existing on map?")
+			error("There is no spawnpoints itself. Are there is existing on map?")
+			crash_with("ERROR: There is no spawnpoints itself. Are there is existing on map?")
 
 		if(!istype(spawnpoint.turfs) || !spawnpoint.turfs.len || !spawnpoint.turfs)
 			error("There is no spawnpoint turfs ([spawnpoint]). Are there turfs existing on map?")

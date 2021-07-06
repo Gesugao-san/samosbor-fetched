@@ -281,7 +281,7 @@
 
 		for(var/obj/structure/bed/B in beds[group])
 			if(B.latejoin)
-				//world << "Adding loc to [family_len]"
+				log_debug("Adding loc to [family_len]")
 				S.Add(B.loc)
 
 		if(S.points.len)
