@@ -2,7 +2,7 @@
 "ab" = (/obj/structure/disposalpipe/up,/turf/unsimulated/floor/rescue_base,/area/khruschevka)
 "ac" = (/obj/structure/disposalpipe/down,/turf/unsimulated/floor/rescue_base,/area/khruschevka)
 "ad" = (/turf/unsimulated/wall,/area/khruschevka)
-"ae" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka)
+"ae" = (/turf/simulated/open,/area/khruschevka)
 "af" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
 "ag" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"; tag = "icon-pipe-c (NORTH)"},/turf/simulated/wall,/area/khruschevka/canteen)
 "ah" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka)
@@ -26,7 +26,7 @@
 "az" = (/obj/structure/bed/chair/wood{dir = 4; icon_state = "wooden_chair_preview"; tag = "icon-wooden_chair_preview (EAST)"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
 "aA" = (/turf/unsimulated/wall,/area/supply/dock)
 "aB" = (/obj/machinery/light/small{dir = 8; icon_state = "bulb1"; tag = "icon-bulb1 (WEST)"},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
-"aC" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka/utilization)
+"aC" = (/obj/structure/railing{dir = 4},/turf/unsimulated/floor/rescue_base,/area/khruschevka/utilization)
 "aD" = (/turf/simulated/floor/plating,/area/khruschevka/utilization)
 "aE" = (/obj/structure/disposalpipe/segment,/turf/simulated/wall,/area/khruschevka/utilization)
 "aF" = (/obj/structure/closet/cabinet,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/utilization)
@@ -115,7 +115,7 @@
 "cM" = (/turf/simulated/floor/tiled/techfloor/grid{dir = 4; icon_state = "rampbot"; tag = "icon-rampbot (EAST)"},/area/khruschevka/utilization)
 "cN" = (/obj/structure/cable{icon_state = "0-4"},/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/apc/autoinit{dir = 1; pixel_y = 29},/turf/simulated/floor/tiled/techfloor,/area/khruschevka/utilization)
 "cO" = (/turf/simulated/floor/tiled/techfloor/grid{dir = 1; icon_state = "rampbot"; tag = "icon-rampbot (NORTH)"},/area/khruschevka/utilization)
-"cP" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka/utilization)
+"cP" = (/obj/structure/railing{dir = 8},/turf/simulated/open,/area/khruschevka/utilization)
 "cQ" = (/obj/structure/bed/chair/wood{color = "#824b28"; dir = 8; icon_state = "wooden_chair_preview"; tag = "icon-wooden_chair_preview (WEST)"},/turf/simulated/floor/tiled/padik,/area/khruschevka/utilization)
 "cR" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"; tag = "icon-spline_fancy (NORTH)"},/obj/machinery/door/airlock/germa{key_id = "utilizators"},/turf/simulated/floor/wood,/area/khruschevka/utilization)
 "cS" = (/obj/structure/bed/chair,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/utilization)
@@ -155,10 +155,10 @@
 "dA" = (/turf/simulated/open,/area/khruschevka/three)
 "dB" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
 "dC" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
-"dD" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/obj/structure/stairs/north,/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
+"dD" = (/obj/structure/stairs/north,/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
 "dE" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
-"dF" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
-"dG" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/obj/structure/stairs/south,/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
+"dF" = (/obj/structure/railing{dir = 8},/turf/simulated/open,/area/khruschevka/canteen)
+"dG" = (/obj/structure/stairs/south,/obj/structure/railing{dir = 4},/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
 "dH" = (/obj/structure/table/rack,/obj/machinery/light/small,/obj/item/weapon/material/minihoe/grabli,/obj/item/weapon/material/minihoe/grabli,/obj/item/weapon/material/minihoe/grabli,/obj/item/weapon/material/minihoe/grabli,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/utilization)
 "dI" = (/obj/structure/table/woodentable,/obj/item/device/radio/intercom/old_radio{pixel_x = 5; pixel_y = 5},/turf/simulated/floor/tiled/techfloor,/area/khruschevka/canteen)
 "dJ" = (/obj/structure/table/woodentable,/obj/item/germa_key/zavod,/obj/item/germa_key/zavod,/obj/item/germa_key/zavod,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/canteen)
@@ -230,9 +230,11 @@
 "fr" = (/obj/structure/closet/crate,/obj/item/storage/firstaid/surgery,/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
 "fs" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/canteen)
 "kn" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/obj/structure/stairs/north,/turf/unsimulated/floor/rescue_base,/area/khruschevka)
-"oF" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/obj/structure/stairs/south,/turf/simulated/floor/tiled/monotile,/area/khruschevka/canteen)
+"oF" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/simulated/open,/area/khruschevka/canteen)
 "Bs" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/obj/structure/stairs/south,/turf/unsimulated/floor/rescue_base,/area/khruschevka/utilization)
-"IW" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/obj/structure/stairs/north,/turf/unsimulated/floor/rescue_base,/area/khruschevka/canteen)
+"IW" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/open,/area/khruschevka/canteen)
+"Kh" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/open,/area/khruschevka/utilization)
+"Po" = (/obj/structure/railing{dir = 4},/turf/simulated/open,/area/khruschevka/canteen)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -345,7 +347,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaadadadadadadadadadadadadalalalalalaladadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaadaaaaaaaaabacaaaaalalalalarafararalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaalalalalalagaiajaaaldCdDalararararalalalalalalalalalalalalalalalalalalalalalalalalalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaalalalalalagaiajaaalPodDalararararalalalalalalalalalalalalalalalalalalalalalalalalalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaalanananananatauaaaloFdEalararararaleJeJeJeJeJeNeJeJeJeJeJeJeNeJeJeJeJeNeJaleQeQevalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaalanananananawaaaaaldCdEalalaralalalalaleyalalalalalalalalalalalalalaleyalalexeJeRalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaalanananananawaaaaalaBaralaqararalalarararafaralfeffeJalaxaxaxaxaxaleJeJeJaleJeEalalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -550,7 +552,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaadaaaaaaaaacabaaaaakakakakaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaakakakakakasavaaaaakaCcPakaaakakakakakakakakakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaakaDaDaDaDaDaEaaaaakBscPakaaakaFaFaGaHakcjaHakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaakaDaDaDaDaDaEaaaaakBsKhakaaakaFaFaGaHakcjaHakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaakaDaDaDaDaDaEaaakakehemakaaakcjejcjcjcjcjaSakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaakaDaDaDaDaDaEaaakaMaMbwakakakaTakcjaHakcjaHakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaakaDaDaDaDaDaEaaakaMaMaMaVaXaMaMakcjaYakbbaHakaaaaaaaaaaaaaaadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
