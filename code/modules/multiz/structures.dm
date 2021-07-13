@@ -213,7 +213,7 @@
 	anchored = TRUE
 	layer = RUNE_LAYER
 
-INITIALIZE_IMMEDIATE(/obj/structure/stairs)
+//INITIALIZE_IMMEDIATE(/obj/structure/stairs)
 
 /obj/structure/stairs/Initialize()
 	for(var/turf/turf in locs)

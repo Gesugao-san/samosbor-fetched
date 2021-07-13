@@ -1,41 +1,39 @@
 "ab" = (/turf/unsimulated/floor/rescue_base,/area/khruschevka)
-"ac" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
-"ad" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/up_flat)
+"ac" = (/turf/simulated/floor/plating,/area/kh_gen/left_end)
+"ad" = (/turf/simulated/floor/plating,/area/kh_gen/up_flat)
 "ae" = (/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
-"af" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/right_end)
+"af" = (/turf/simulated/floor/plating,/area/kh_gen/right_end)
 "ag" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/left_end)
 "ah" = (/obj/structure/disposalpipe/down,/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/left_end)
 "ai" = (/obj/structure/disposalpipe/up,/turf/simulated/wall,/area/kh_gen/mid/left_end)
 "aj" = (/turf/simulated/wall,/area/kh_gen/mid/left_end)
 "ak" = (/turf/simulated/wall,/area/kh_gen/mid/up_flat)
 "al" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/up_flat)
-"am" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/right_end)
-"an" = (/obj/structure/disposalpipe/up,/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
-"ao" = (/obj/structure/disposalpipe/down,/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
+"am" = (/turf/simulated/floor/plating,/area/kh_gen/mid/right_end)
+"an" = (/obj/structure/disposalpipe/up,/turf/simulated/floor/plating,/area/kh_gen/left_end)
+"ao" = (/obj/structure/disposalpipe/down,/turf/simulated/wall,/area/kh_gen/left_end)
 "ap" = (/turf/simulated/wall,/area/kh_gen/left_end)
-"aq" = (/obj/structure/stairs/north,/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"aq" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/simulated/floor/plating,/area/khruschevka)
 "ar" = (/turf/simulated/wall,/area/kh_gen/up_flat)
-"as" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"; tag = "icon-pipe-c (NORTH)"},/turf/simulated/wall,/area/kh_gen/mid/left_end)
+"as" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"; tag = "icon-pipe-c (NORTH)"},/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/left_end)
 "at" = (/obj/structure/disposalpipe/junction/yjunction{dir = 8; icon_state = "pipe-y"; tag = "icon-pipe-y (WEST)"},/turf/simulated/wall,/area/kh_gen/mid/left_end)
-"au" = (/obj/effect/samosbor_start,/obj/machinery/samosbor_siren,/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
-"av" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
+"au" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/floor/plating,/area/khruschevka)
+"av" = (/turf/simulated/wall,/area/kh_gen/mid/right_end)
 "aw" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "ax" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"; tag = "icon-pipe-c (NORTH)"},/turf/simulated/wall,/area/kh_gen/left_end)
-"ay" = (/obj/structure/disposalpipe/junction/yjunction{dir = 1; icon_state = "pipe-y"; tag = "icon-pipe-y (NORTH)"},/turf/simulated/wall,/area/kh_gen/left_end)
-"az" = (/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"; tag = "icon-pipe-c"},/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
-"aA" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/simulated/floor,/area/kh_gen/left_end)
-"aB" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/floor,/area/kh_gen/left_end)
-"aC" = (/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
-"aD" = (/obj/structure/railing{dir = 4; icon_state = "railing0"},/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
-"aE" = (/obj/structure/railing{dir = 8},/turf/simulated/open,/area/kh_gen/mid/left_end)
+"ay" = (/obj/structure/disposalpipe/junction/yjunction{dir = 8; icon_state = "pipe-y"; tag = "icon-pipe-y (WEST)"},/turf/simulated/wall,/area/kh_gen/left_end)
+"az" = (/obj/structure/ladder/up,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
+"aB" = (/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"aC" = (/turf/simulated/open,/area/kh_gen/mid/left_end)
+"aD" = (/obj/structure/stairs/north,/turf/simulated/floor/plating,/area/kh_gen/left_end)
 "aF" = (/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"aG" = (/turf/simulated/floor/plating,/area/kh_gen/left_end)
-"aH" = (/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"; tag = "icon-pipe-c (EAST)"},/turf/simulated/wall,/area/kh_gen/left_end)
-"aI" = (/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"; tag = "icon-pipe-c (WEST)"},/turf/unsimulated/floor/rescue_base,/area/kh_gen/left_end)
+"aG" = (/turf/simulated/open,/area/kh_gen/left_end)
+"aH" = (/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"aI" = (/obj/structure/railing{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "aJ" = (/turf/simulated/wall,/area/kh_gen/right_end)
-"aK" = (/obj/structure/railing{dir = 4},/obj/structure/stairs/south,/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
+"aK" = (/obj/structure/stairs/south,/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
 "aL" = (/obj/structure/disposalpipe/segment,/turf/simulated/wall,/area/kh_gen/left_end)
-"aM" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/obj/machinery/light/small{dir = 4; icon_state = "bulb1"; tag = "icon-bulb1 (EAST)"},/turf/simulated/floor,/area/kh_gen/left_end)
+"aM" = (/obj/structure/railing{dir = 8},/obj/machinery/light/small{dir = 4; icon_state = "bulb1"; tag = "icon-bulb1 (EAST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "aN" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "aO" = (/obj/structure/bed{latejoin = 1},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "aP" = (/obj/structure/closet/cabinet,/obj/item/crowbar,/obj/item/soap,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
@@ -48,7 +46,7 @@
 "aW" = (/obj/structure/table/woodentable,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "aX" = (/obj/structure/table/woodentable,/obj/item/device/radio/intercom/old_radio{pixel_y = 5},/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "aY" = (/obj/structure/closet,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/obj/item/stack/material/phoron/ten,/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"aZ" = (/obj/structure/railing{dir = 4},/turf/simulated/open,/area/kh_gen/left_end)
+"aZ" = (/obj/structure/window/basic,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
 "ba" = (/obj/machinery/light/small{dir = 8; icon_state = "bulb1"; tag = "icon-bulb1 (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bb" = (/turf/simulated/floor/carpet,/area/kh_gen/up_flat)
 "bc" = (/obj/machinery/door/morgue,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
@@ -56,27 +54,29 @@
 "be" = (/obj/structure/undies_wardrobe,/obj/machinery/light/small{dir = 4; icon_state = "bulb1"; tag = "icon-bulb1 (EAST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bf" = (/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "bg" = (/obj/structure/bed/chair/wood{color = "#824b28"; dir = 2; icon_state = "wooden_chair_preview"; tag = "icon-wooden_chair_preview (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
-"bh" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"bh" = (/obj/structure/railing{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "bi" = (/obj/structure/table/woodentable,/obj/machinery/microwave,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bj" = (/obj/structure/table/woodentable,/obj/machinery/light/small,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bk" = (/obj/structure/coatrack,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bl" = (/obj/structure/closet/cabinet,/obj/machinery/light/small,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
+"bo" = (/obj/structure/ladder/updown,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "bq" = (/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
+"bt" = (/obj/structure/window/basic{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "bw" = (/obj/machinery/door/airlock/germa,/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "by" = (/obj/machinery/door/airlock/germa{group = 1},/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
 "bD" = (/obj/machinery/samosbor_siren,/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
 "bE" = (/obj/machinery/disposal{density = 0; pixel_y = 22},/obj/structure/disposalpipe/trunk{dir = 1; icon_state = "pipe-t"; tag = "icon-pipe-t (NORTH)"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
-"bF" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
-"bG" = (/obj/effect/samosbor_start,/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
+"bF" = (/obj/structure/ladder,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"bG" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
 "bH" = (/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
 "bI" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/machinery/power/port_gen/pacman{active = 1; anchored = 1; sheet_left = 50; sheets = 50},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"bK" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/coridor)
-"bL" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
+"bK" = (/turf/simulated/floor/plating,/area/kh_gen/mid/coridor)
+"bL" = (/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "bM" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
 "bR" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"; tag = "icon-spline_fancy (NORTH)"},/obj/machinery/door/airlock/germa,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/down_flat)
 "bT" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1; icon_state = "spline_fancy"; tag = "icon-spline_fancy (NORTH)"},/obj/machinery/door/airlock/germa{group = 1},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/down_flat)
 "bW" = (/obj/effect/floor_decal/spline/fancy/wood,/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
-"bZ" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/mid/down_flat)
+"bZ" = (/turf/simulated/floor/plating,/area/kh_gen/mid/down_flat)
 "ca" = (/turf/simulated/wall,/area/kh_gen/down_flat)
 "cb" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/down_flat)
 "cc" = (/obj/structure/bed/chair/wood{color = "#824b28"; dir = 8; icon_state = "wooden_chair_preview"; tag = "icon-wooden_chair_preview (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/down_flat)
@@ -103,7 +103,7 @@
 "cx" = (/obj/structure/hygiene/sink{dir = 4; icon_state = "sink"; layer = 3.4; pixel_x = 4; pixel_y = 18},/obj/structure/hygiene/toilet{dir = 1; icon_state = "base"; tag = "icon-base (NORTH)"},/obj/item/storage/mirror{pixel_x = 32; pixel_y = 18},/obj/machinery/light/small{dir = 8; icon_state = "bulb1"; tag = "icon-bulb1 (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/down_flat)
 "cy" = (/obj/structure/curtain/open/shower,/obj/structure/hygiene/shower{pixel_y = 18},/turf/simulated/floor/tiled/plitka,/area/kh_gen/right_end)
 "cz" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/plitka,/area/kh_gen/right_end)
-"cA" = (/turf/unsimulated/floor/rescue_base,/area/kh_gen/down_flat)
+"cA" = (/turf/simulated/floor/plating,/area/kh_gen/down_flat)
 "cB" = (/obj/effect/kh_low_levels,/turf/simulated/wall,/area/khruschevka/anomaly_levels)
 "cC" = (/turf/simulated/floor/plating,/area/khruschevka/anomaly_levels)
 "cD" = (/turf/simulated/wall,/area/khruschevka/anomaly_levels)
@@ -184,19 +184,19 @@
 "ef" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "eg" = (/obj/structure/cable{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "eh" = (/obj/machinery/light/small,/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"ei" = (/obj/structure/cable{d1 = 32; d2 = 4; icon_state = "32-4"},/turf/simulated/open,/area/kh_gen/mid/left_end)
+"ei" = (/obj/effect/samosbor_start,/obj/machinery/samosbor_siren,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "ej" = (/obj/structure/cable,/obj/machinery/power/port_gen/pacman{active = 1; anchored = 1; sheet_left = 50; sheets = 50},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "ek" = (/obj/structure/cable,/obj/machinery/power/port_gen/pacman{active = 0; anchored = 1; sheet_left = 50; sheets = 50},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "el" = (/obj/structure/closet,/obj/item/wrench,/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"em" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"en" = (/obj/structure/cable{d1 = 16; d2 = 0; icon_state = "16-0"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
-"eo" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"em" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/obj/structure/window/basic,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"en" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb1"; tag = "icon-bulb1 (EAST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"eo" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
 "ep" = (/obj/machinery/power/apc{dir = 1; pixel_y = 29},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
 "eq" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
 "er" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
 "es" = (/obj/structure/cable{d2 = 2; icon_state = "0-2"; pixel_y = 0},/obj/machinery/power/port_gen/pacman{active = 1; anchored = 1; sheet_left = 50; sheets = 50},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
 "et" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/light/small{dir = 4; icon_state = "bulb1"; tag = "icon-bulb1 (EAST)"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
-"eu" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
+"eu" = (/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
 "ev" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
 "ex" = (/turf/simulated/floor/tiled/techfloor,/area/khruschevka/anomaly_levels)
 "eA" = (/obj/structure/table/standard,/obj/item/storage/belt,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/anomaly_levels)
@@ -212,41 +212,58 @@
 "eS" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/techfloor,/area/khruschevka/anomaly_levels)
 "eT" = (/turf/simulated/floor/tiled/padik{holy = 1},/area/kh_gen/left_end)
 "fK" = (/obj/effect/landmark/start{name = "Dweller"},/turf/simulated/floor/carpet,/area/kh_gen/up_flat)
-"hD" = (/obj/structure/ladder/updown,/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
-"nf" = (/obj/structure/railing{dir = 8; icon_state = "railing0"},/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
+"gx" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
+"hD" = (/obj/structure/ladder,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
+"jN" = (/obj/structure/cable{d1 = 16; d2 = 0; icon_state = "16-0"},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"kD" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"mG" = (/turf/simulated/wall,/area/kh_gen/mid/down_flat)
+"nf" = (/obj/structure/window/basic{dir = 8},/turf/simulated/open,/area/kh_gen/mid/left_end)
+"ot" = (/obj/effect/samosbor_start,/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
 "qb" = (/obj/effect/shuttle_landmark,/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
+"qV" = (/obj/structure/cable{d1 = 32; d2 = 4; icon_state = "32-4"},/obj/structure/window/basic{dir = 4},/turf/simulated/open,/area/kh_gen/mid/left_end)
 "rs" = (/obj/effect/submap_landmark/spawnpoint,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/up_flat)
-"tK" = (/turf/simulated/open,/area/kh_gen/left_end)
+"sZ" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/obj/structure/railing{dir = 8},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
+"tr" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating,/area/kh_gen/mid/up_flat)
+"tK" = (/obj/structure/window/basic{dir = 4},/turf/simulated/open,/area/kh_gen/left_end)
+"vT" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
+"wM" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/mid/left_end)
+"xz" = (/obj/structure/table/woodentable,/turf/simulated/floor/tiled/padik,/area/kh_gen/right_end)
 "yw" = (/obj/structure/ladder/up,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"yW" = (/obj/structure/ladder/updown,/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"CC" = (/turf/simulated/floor/plating,/area/kh_gen/mid/left_end)
+"Le" = (/obj/machinery/light/small,/obj/machinery/door/unpowered/simple/wood,/turf/simulated/floor/tiled/padik,/area/kh_gen/coridor)
 "ME" = (/obj/effect/landmark/start{name = "Dweller"},/turf/simulated/floor/carpet,/area/kh_gen/down_flat)
+"MU" = (/obj/machinery/light/small{dir = 8; icon_state = "bulb1"; tag = "icon-bulb1 (WEST)"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
+"Sx" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"; tag = "icon-bulb1 (NORTH)"},/turf/simulated/floor/tiled/padik,/area/kh_gen/left_end)
+"SV" = (/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/kh_gen/left_end)
 
 (1,1,1) = {"
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+abababababababababababababababaqauababababababababababababababababababababababababababababababababababababababababaqauababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
-abababababapapapapapapapapapapapapaparararararararararararararararaJaJaJaJababababababababababagagagagagahaiajajajajajajakakakakakakakakakakalalalalalamamamamababababababababababababababababababababab
-abababababapacacacacanaoacapywaZaqaparadadadadadadadadadadadadadadafafafaJababababababababababajajajajajasatagajhDauavaCawaFaFaFelaYesbIbIakalalalalalamamamamababababababababababababababababababababab
-abababababapapapapapaxayazapaetKaeaparadadadadadadadadadadadadadadafafafaJababababababababababajaCaCaCaCaCajagajajaDnfajakebaFaFaFaFececetakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaHaIapaeaAaBaparararararararararararararararaJaJaJaJababababababababababajaCaCaCaCaCajagagajaKaEajakaFaFedeeeeefefegakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapaeaAaMaparaNaOaPaOaraQaraRaraSaTaUaVaraWaXaWaJababababababababababajaCaCaCaCaCajagagajajajajakaFaFecaFehejekekakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapaeaeaeaearbabbbbaUarbcarbcarbdbbbbbearbfbfbfaJababababababababababajaCaCaCaCaCajagagagagajajakedeeemakakakakakakalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapaeaebhenarbgbbfKrsaUaUaraUaUaUbbfKaVarbfbfbfaJababababababababababajaCaCaCaCaCajagagagagajeieuemaFaFakalalalalalalalalalalamamamamababababababababababababababababababababab
-abababababapaGaGaGaGaGaLacapeoaeevaearaSaTbibjbkaUaraUbkblaNbiaSarbfbfbfaJababababababababababajajajajajajajagagagagajajakakakakakalalalalalalalalalalamamamamababababababababababababababababababababab
-abababababapapeTeTeTapaLapapapaeevapararararararbwarbyararararararaJbfaJaJababababababababababagagagagagagagagagagagagagalalalalalalalalalalalalalalalamamamamababababababababababababababababababababab
-abababababapbDbqbqbqbqbEbqepeqeqerbFbGbHbHbHbHbHbHbHbHbHbHbHbHbHbHbfbfbfaJababababababababababagagagagagagagagagagagagagbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKamamamamababababababababababababababababababababab
-abababababapbqbLbqbqbqbLbqbLbqbqbLbFbMbHbHbMbHbHbHbMbHbHbHbMbHbHbHbfbfqbaJababababababababababagagagagagagagagagagagagagbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKamamamamababababababababababababababababababababab
-abababababapapapapapapapapapapapapapcacacacacacabRcabTcacacacacacaaJbWaJaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacacacacacacacaccacbcccdcecfcgcacgcfcecdchcbcacicjckaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacacacacacacacaccaclcmMEcgcgcgcacgcgcgcmMEcncacocjcpaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacacacacacacacaccacqcmcmcgcacrcacrcacscmcmctcaaJcjaJaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacacacacacacacaccacuchcvcucacwcacxcacbcccgcncacyczcyaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacacacacacacacapcacacacacacacacacacacacacacacaaJaJaJaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacbqacacacacacapcAcAcAcAcAcAcAcAcAcAcAcAcAcAcAafafafaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapacacacacacbqacacacacacapcAcAcAcAcAcAcAcAcAcAcAcAcAcAcAafafafaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
-abababababapapapapapapapapapapapapapcacacacacacacacacacacacacacacaaJaJaJaJababababababababababagagagagagagagagagagagagagbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamamababababababababababababababababababababab
+abababababapapapapapapapapapapapapaparararararararararararararararaJaJaJaJababababababababababajajajajajahaiajajajajajajakakakakakakakakakakalakakakakavavavavababababababababababababababababababababab
+abababababapacacacacanaoaeaeywemaZbFaradadadadadadadadadadadadadadafafafaJababababababababababajCCCCCCCCasatbLwMhDbLeiazawaFaFaFelaYesbIbIakalaFaFaFaFamamamavababababababababababababababababababababab
+abababababapapapapapaxayaeaeaBtKaDaHaradadadadadadadadadadadadadadafafafaJababababababababababajajajajajajajbLbLaICCnfaMakebaFaFaFaFececetakalaFaFaFaFamamamavababababababababababababababababababababab
+abababababapaGaGaGaGaGaLMUyWaBtKacaHarararararararararararararararaJaJaJaJababababababababababajaCaCaCaCaCajbLboaIaKnfbhakaFaFedeeeeefefegakalakakakakavavavavababababababababababababababababababababab
+abababababapaGaGaGaGaGaLaeaeaeaeaeenaraNaOaPaOaraQaraRaraSaTaUaVaraWaXxzaJababababababababababajaCaCaCaCaCajbLbLeobtbtbLakaFaFecaFehejekekakalaFaFaFakamamamavababababababababababababababababababababab
+abababababapaGaGaGaGaGaLapapaeaeaeaearbabbbbaUarbcarbcarbdbbbbbearbfbfbfaJababababababababababajaCaCaCaCaCajajajajajajajakaFaFecakakakakakakalaFaFaFakamamamavababababababababababababababababababababab
+abababababapaGaGaGaGaGaLacapMUaeSVjNarbgbbfKrsaUaUaraUaUaUbbfKaVarbfbfbfaJababababababababababajaCaCaCaCaCajagagagagajqVsZeeeetrakalalalalalalaFaFaFakamamamavababababababababababababababababababababab
+abababababapaGaGaGaGaGaLacapaeaeevaearaSaTbibjbkaUaraUbkblaNbiaSarbfbfbfaJababababababababababajaCaCaCaCaCajCCCCCCagajajakakakakakalaFakaFaFaFaFaFaFakamamamavababababababababababababababababababababab
+abababababapapeTeTeTapaLapapapeukDapararararararbwarbyararararararaJbfaJaJababababababababababajajajajajajajCCCCCCagagagalalalalalalaFakaFakakakakakakavamavavababababababababababababababababababababab
+abababababapbDbqbqbqSxbEbqepgxeqerbqbGotbHbHbHbHbHbHbHbHbHbHbHbHbHbfbfbfaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKamamamavababababababababababababababababababababab
+abababababapbqbqbqbqbqbqbqbqbqbqbqbqLebHbHbMbHbHbHbMbHbHbHbMbHbHbHbfbfqbaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKamamamavababababababababababababababababababababab
+abababababapbqbqvTbqbqbqvTbqbqbqvTbqcacacacacacabRcabTcacacacacacaaJbWaJaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCmGmGmGmGmGmGbZmGbZmGmGmGmGmGmGavamavavababababababababababababababababababababab
+abababababapapapapapapapapapapapapapcacbcccdcecfcgcacgcfcecdchcbcacicjckaJababababababababababajajajajajajajajajajajajajmGbZbZbZbZbZbZmGbZbZbZbZbZbZmGamamamavababababababababababababababababababababab
+abababababapacacacacacacacacacacacaccaclcmMEcgcgcgcacgcgcgcmMEcncacocjcpaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCmGbZbZbZbZbZbZmGbZbZbZbZbZbZmGamamamavababababababababababababababababababababab
+abababababapacacacacacacacacacacacaccacqcmcmcgcacrcacrcacscmcmctcaaJcjaJaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCmGbZbZbZbZmGbZmGbZmGbZbZbZbZmGavamavavababababababababababababababababababababab
+abababababapacacacacacacacacacacacaccacuchcvcucacwcacxcacbcccgcncacyczcyaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCCCmGbZbZbZbZmGbZmGbZmGbZbZbZbZmGamamamavababababababababababababababababababababab
+abababababapacacacacacacacacacacacapcacacacacacacacacacacacacacacaaJaJaJaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCajmGmGmGmGmGmGmGmGmGmGmGmGmGmGmGavavavavababababababababababababababababababababab
+abababababapacacacacacbqacacacacacapcAcAcAcAcAcAcAcAcAcAcAcAcAcAcAafafafaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCajbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamavababababababababababababababababababababab
+abababababapacacacacacbqacacacacacapcAcAcAcAcAcAcAcAcAcAcAcAcAcAcAafafafaJababababababababababajCCCCCCCCCCCCCCCCCCCCCCajbZbZbZbZbZbZbZbZbZbZbZbZbZbZbZamamamavababababababababababababababababababababab
+abababababapapapapapapapapapapapapapcacacacacacacacacacacacacacacaaJaJaJaJababababababababababajajajajajajajajajajajajajmGmGmGmGmGmGmGmGmGmGmGmGmGmGmGavavavavababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
