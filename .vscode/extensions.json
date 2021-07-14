@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+		"andreabbondanza.ignoregit",
+		"dmai.dms",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"jasonnutter.vscode-codeowners",
+		"knisterpeter.vscode-github",
+		"oderwat.indent-rainbow",
+		"rogalmic.bash-debug",
+		"shan.code-settings-sync",
+		"ss13.byond",
+		"usernamehw.errorlens",
+		"wwm.better-align",
+	]
+}

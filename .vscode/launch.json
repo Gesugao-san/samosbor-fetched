@@ -1,0 +1,28 @@
+{
+    // IntelliSense: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Attach to Debugger",
+			"type": "byond",
+			"request": "attach",
+			"port": 2506
+		},
+		{
+			"name": "Launch DreamSeeker",
+			"preLaunchTask": "Build DM Environment file",
+			"type": "byond",
+			"request": "launch",
+			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
+			"dreamDaemon": false,
+		},
+		{
+			"name": "Launch DreamDaemon",
+			"preLaunchTask": "Build DM Environment file",
+			"type": "byond",
+			"request": "launch",
+			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
+			"dreamDaemon": true,
+		}
+	]
+}
